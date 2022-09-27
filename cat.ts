@@ -2,6 +2,8 @@ class Cat implements Animal {
   name: String;
   age: number;
   private _species: String;
+  // breakrule no.3: make your data mean something.this is not a meaningful data
+  behvior:String;
 
   constructor(age: number, name: String) {
     this._species = "cat";
@@ -26,5 +28,7 @@ class Cat implements Animal {
     }
   }
 }
+
+
 
 export {Cat}
